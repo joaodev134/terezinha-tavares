@@ -78,12 +78,25 @@ main p {
     line-height: 1.5em;
 }
 
-article#imagem {
-    background: black url(imagens/paisagem.jpg) center center no-repeat fixed;
+article#paisagem {
+    background: black url(../imagens/paisagem.jpg) center center no-repeat fixed;
     background-size: cover;
 }
 
-#imagem > p {
+#paisagem > p {
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.521);
+    color: white;
+    padding: 10px;
+    margin: 50px 50px 50px 20px;
+}
+
+article#tempo {
+    background: black url(../imagens/tempo.jpg) center center no-repeat fixed;
+    background-size: cover;
+}
+
+#tempo > p {
     display: inline-block;
     background-color: rgba(0, 0, 0, 0.521);
     color: white;
