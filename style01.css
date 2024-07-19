@@ -74,8 +74,7 @@ main h1 {
 
 main p {
     padding: 30px 30px;
-    font-size: 2em;
-    line-height: 1.5em;
+    font-size: 1.5em;
     text-align: justify;
     text-indent: 30px;
 }
