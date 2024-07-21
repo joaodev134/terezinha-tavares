@@ -115,3 +115,7 @@ ul li {
     list-style-position: inside;
     margin-left: 50px;
 }
+
+ul {
+    columns: 2;
+}
